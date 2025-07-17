@@ -22,7 +22,7 @@ export default function Home() {
             Suman Das, <br /> Web & App <Cover> Developer</Cover>
           </h2>
 
-          <Link href="#" className=" z-20 text-white  border-[#525252] border-b hover:p-[10px] hover:bg-[#5070ff2f] mr-auto text-start ease-in-out duration-200 py-2 hover:px-5 hover:rounded-full cursor-pointer">
+          <Link href="#" className=" z-30 text-white  border-[#525252] border-b hover:p-[10px] hover:bg-[#5070ff2f] mr-auto text-start ease-in-out duration-200 py-2 hover:px-5 hover:rounded-full cursor-pointer">
             Contact Me &rarr;
           </Link>
         </div>
@@ -40,10 +40,10 @@ export default function Home() {
         <Link href="#" className="max-w-32 w-full h-[35px] flex justify-center items-center  border-1 border-[#525252] mx-auto pb-1 rounded-4xl">Hire me</Link>
 
 
-        <h2 className=" my-12 md:my-1  bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-5xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
+        <h2 className=" my-4 md:my-1  bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-5xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
           About me
         </h2>
-        <p className="max-w-xl mx-auto text-md lg:text-sm text-neutral-700 dark:text-neutral-400 text-start ">
+        <p className="max-w-xl mx-auto text-md lg:text-sm text-neutral-700 dark:text-neutral-400 text-center lg:text-start ">
           I specialize in modern frontend development with a strong focus on creating clean, responsive, and engaging user interfaces. My core expertise lies in React.js, where I build scalable component-based applications using tools like Vite for fast development and optimized builds.
           I&aposm proficient in JavaScript (ES6+), with solid knowledge of HTML5 and CSS3, and I often use Tailwind CSS to rapidly create modern, utility-first UI designs. For animations and motion effects, I rely on Framer Motion to bring interfaces to life with smooth transitions.
           I handle client-side routing using React Router DOM and manage application state with React Context API. I follow mobile-first and accessible design principles to ensure performance and usability across all devices.
