@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-full overflow-x-hidden min-h-screen grid lg:grid-cols-[1fr_0.6fr_0.4fr] gap-[20px]">
+    <div className="w-full overflow-x-hidden min-h-screen grid lg:grid-cols-[1fr_0.6fr_0.4fr] gap-[20px] select-none">
 
       <div className="max-w-[600px] w-[90%] mx-auto ">
         <Link href="/" className="font-bold text-amber-50"> <Image src={logo} width={120} height={80} className="max-h-[80px] h-full object-contain object-center" alt="logo" /></Link>
