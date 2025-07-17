@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="w-full overflow-x-hidden min-h-screen grid lg:grid-cols-[1fr_0.6fr_0.4fr] gap-[20px]">
 
-      <div className="max-w-[600px] w-[90%] mx-auto py-8">
+      <div className="max-w-[600px] w-[90%] mx-auto ">
         <Link href="/" className="font-bold text-amber-50"> <Image src={logo} width={120} height={80} className="max-h-[80px] h-full object-contain object-center" alt="logo" /></Link>
         {/* left side content  */}
         <div className="flex flex-col justify-center h-[80%]">
@@ -22,21 +22,21 @@ export default function Home() {
             Suman Das, <br /> Web & App <Cover> Developer</Cover>
           </h2>
 
-          <Link href="#" className=" text-white  border-[#525252] border-b hover:p-[10px] hover:bg-[#5070ff2f] mr-auto text-start ease-in-out duration-200 py-2 hover:px-5 hover:rounded-full cursor-pointer">
+          <Link href="#" className=" z-10 text-white  border-[#525252] border-b hover:p-[10px] hover:bg-[#5070ff2f] mr-auto text-start ease-in-out duration-200 py-2 hover:px-5 hover:rounded-full cursor-pointer">
             Contact Me &rarr;
           </Link>
         </div>
 
       </div>
 
-      <div className="w-full h-full flex items-center bg-black">
+      <div className="w-full h-full flex items-center bg-black mt-12 lg:mt-0">
         <Image src={image1} width={800} height={1200} className="w-full max-h-[100vh] object-contain object-bottom" alt="model" />
       </div>
 
 
       {/* right side content */}
 
-      <div className="w-[90%] mx-auto py-10 flex flex-col items-center z-3">
+      <div className="w-[90%] mx-auto  flex flex-col items-center z-3 pt-8">
         <Link href="#" className="max-w-32 w-full h-[35px] flex justify-center items-center  border-1 border-[#525252] mx-auto pb-1 rounded-4xl">Hire me</Link>
 
 
