@@ -4,7 +4,7 @@ import React from "react";
 import image1 from "../../public/image1.jpg";
 import logo from "../../public/images.png"
 import { Cover } from "@/components/ui/cover";
-import { Skils } from "@/components/Skils";
+import { Skills } from "@/components/Skills";
 import { ShootingStars } from "@/components/ui/shooting-stars";
 import { StarsBackground } from "@/components/ui/stars-background";
 
@@ -50,7 +50,7 @@ export default function Home() {
       
         </p>
 
-        <Skils />
+        <Skills />
 
       </div>
 
