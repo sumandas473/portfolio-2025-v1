@@ -22,7 +22,7 @@ export default function Home() {
             Suman Das, <br /> Web & App <Cover> Developer</Cover>
           </h2>
 
-          <Link href="#" className=" z-10 text-white  border-[#525252] border-b hover:p-[10px] hover:bg-[#5070ff2f] mr-auto text-start ease-in-out duration-200 py-2 hover:px-5 hover:rounded-full cursor-pointer">
+          <Link href="#" className=" z-20 text-white  border-[#525252] border-b hover:p-[10px] hover:bg-[#5070ff2f] mr-auto text-start ease-in-out duration-200 py-2 hover:px-5 hover:rounded-full cursor-pointer">
             Contact Me &rarr;
           </Link>
         </div>
@@ -55,7 +55,7 @@ export default function Home() {
 
       </div>
 
-      <ShootingStars />
+      <ShootingStars className="-z-1" />
       <StarsBackground className="-z-2"/>
 
     </div>
