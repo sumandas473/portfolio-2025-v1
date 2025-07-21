@@ -95,7 +95,7 @@ export function Contact() {
 
     };
     return (
-        <div
+        <div id="contact"
             className="shadow-input bg-[#11121617] z-[20] mx-auto w-full max-w-[800px] backdrop-blur-[18px] rounded-none p-4 md:rounded-2xl md:p-8 dark:bg-black xl:mt-[60rem]">
             <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
                 Do You Have A Project, <Cover>Let's Discuss</Cover>

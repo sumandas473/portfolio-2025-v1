@@ -9,7 +9,7 @@ import { GoCopilot } from "react-icons/go";
 
 export function Skills() {
   return (
-    <div className=" flex flex-col items-center justify-center w-full max-w-2xl mx-auto mt-10">
+    <div className=" flex flex-col items-center justify-center w-full max-w-2xl mx-auto mt-10" >
       <h2 className="text-xl -mb-20 font-semibold text-white"> Skills </h2>
       <CardSkeletonContainer>
         <Skeleton />

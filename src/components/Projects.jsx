@@ -6,7 +6,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 // 🔗 ProjectLinks button component
 const ProjectLinks = ({ github, live }) => {
   return (
-    <div className="mt-4 flex flex-wrap gap-4 justify-center">
+    <div className="mt-4 flex flex-wrap gap-4 justify-center" >
       <a
         href={github}
         target="_blank"
@@ -36,7 +36,7 @@ export function Projects() {
   ));
 
   return (
-    <div className="w-full h-full py-20">
+    <div className="w-full h-full py-20" id="projects">
       <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
         Recent Projects
       </h2>

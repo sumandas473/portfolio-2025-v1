@@ -7,6 +7,7 @@ import { TimelineSection } from "@/components/TimelineSection";
 import { Projects } from "@/components/Projects";
 import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import { Contact } from "@/components/Contact";
+import { Navbar } from "@/components/Navbar";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
 
   return (
     <>
+    <Navbar />
      <HeroSection />
      <Services />
      <Projects />
